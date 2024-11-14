@@ -7,3 +7,8 @@ function getDernierProduit(){
     return $bdd->query('SELECT * FROM produit ORDER BY id_produit DESC LIMIT 1')->fetchAll(PDO::FETCH_ASSOC);
 }
 
+function getProduits(){
+    global $bdd;
+    return $bdd->query('SELECT * FROM produit')->fetchAll(PDO::FETCH_ASSOC);
+}
+
