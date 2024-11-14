@@ -6,6 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="index.php">Accueil</a>
+    <header>
+        <a href="index.php"><img src="../image/logo.png" alt="logo SmartBike"></a>
+        <nav>
+            <a href="index.php">Accueil</a>
+            <a href="index.php?page=velos">Velos</a>
+            <a href="index.php?page=contact">Contact</a>
+        </nav>
+    </header>
 </body>
 </html>
