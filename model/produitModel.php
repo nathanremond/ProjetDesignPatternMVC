@@ -12,3 +12,7 @@ function getProduits(){
     return $bdd->query('SELECT * FROM produit')->fetchAll(PDO::FETCH_ASSOC);
 }
 
+function getProduitById($id){
+    global $bdd;
+    return $bdd->query("SELECT * FROM produit WHERE id_produit=$id")->fetchAll(PDO::FETCH_ASSOC);
+}
