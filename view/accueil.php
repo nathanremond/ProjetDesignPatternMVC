@@ -2,5 +2,7 @@
 
 <p>Dernier vélo ajouté :</p>
 
-<img src="../image/<?=$dernierVelo['image']?>">
-<p><?=$dernierVelo['description']?></p>
+<?php foreach($dernierVelo as $velo){ ?>
+    <img src="<?=$velo['image']?>">
+    <p><?=$velo['description']?></p>
+<?php } ?>
