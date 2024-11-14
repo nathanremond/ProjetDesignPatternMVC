@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="styles.css" type="text/css" />
+<link rel="stylesheet" href="../css/style.css" type="text/css" />
 
 <form id="contact" action="submit_form.php" method="POST">
     <h2>Contact</h2>
