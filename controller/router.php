@@ -24,6 +24,16 @@ switch($page){
         include('controller/commanderController.php');
         commander();
         break;
+
+    case 'contact':
+        include('controller/contactController.php');
+        getFormContact();
+        break;
+    
+    case 'verifiercontact':
+        include('controller/contactController.php');
+        contact();
+        break;
     
     default:
         include('controller/produitController.php');

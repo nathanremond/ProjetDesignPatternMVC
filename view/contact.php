@@ -1,4 +1,4 @@
-<form id="contact" action="submit_form.php" method="POST">
+<form id="contact" action="index.php?page=verifiercontact" method="POST">
     <h2>Contact</h2>
 
 
