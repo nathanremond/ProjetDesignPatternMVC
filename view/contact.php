@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../css/style.css" type="text/css" />
+
 <form id="contact" action="index.php?page=verifiercontact" method="POST">
     <h2>Contact</h2>
 

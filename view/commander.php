@@ -1,6 +1,5 @@
 <link rel="stylesheet" href="../css/style.css" type="text/css" />
 
-
 <form id="commander" action="index.php?page=verifiercommande" method="POST">
     <h2>Commander</h2>
 
