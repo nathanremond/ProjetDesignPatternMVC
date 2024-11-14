@@ -15,6 +15,16 @@ switch($page){
         afficherProduitParId();
         break;
     
+    case 'commander':
+        include('controller/commanderController.php');
+        getFormCommander();
+        break;
+
+    case 'verifiercommande':
+        include('controller/commanderController.php');
+        commander();
+        break;
+    
     default:
         include('controller/produitController.php');
         afficherDernierProduit();
