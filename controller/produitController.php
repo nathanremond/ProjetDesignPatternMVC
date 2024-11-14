@@ -11,3 +11,8 @@ function afficherProduits(){
     $velos = getProduits();
     include('view/velos.php');
 }
+
+function afficherProduitParId(){
+    $velo = getProduitById($_GET['velo']);
+    include('view/velo.php');
+}
